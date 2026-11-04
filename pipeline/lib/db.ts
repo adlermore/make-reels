@@ -6,7 +6,8 @@
  */
 import { DatabaseSync } from 'node:sqlite';
 import path from 'node:path';
-import { DATA_DIR, LAYOUT, pp } from './paths.js';
+import fs from 'node:fs';
+import { DATA_DIR, LAYOUT, PROJECTS_DIR, pp } from './paths.js';
 import { ensureDir, writeJson } from './io.js';
 import type { Asset } from '../../src/types/schemas.js';
 
@@ -64,7 +65,44 @@ export function db(): DatabaseSync {
       auto_score REAL NOT NULL, verdict TEXT NOT NULL, critical INTEGER NOT NULL, created_at TEXT NOT NULL
     );
   `);
+  // New machine after `git pull`: the DB is not in git, but every project carries JSON mirrors → rebuild.
+  const count = (_db.prepare('SELECT COUNT(*) AS n FROM projects').get() as { n: number }).n;
+  if (count === 0) importMirrors(_db);
   return _db;
+}
+
+/**
+ * Rebuild DB rows from the JSON mirrors committed with each project
+ * (production-state.json, asset-manifest.json, production-cost-report.json, brief/brief.json).
+ * Heavy media are not in git: stages keep their input hashes, but producers re-create missing files.
+ */
+export function importMirrors(d: DatabaseSync, only?: string): string[] {
+  if (!fs.existsSync(PROJECTS_DIR)) return [];
+  const read = (p: string) => { try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return null; } };
+  const imported: string[] = [];
+  for (const id of fs.readdirSync(PROJECTS_DIR)) {
+    if (only && id !== only) continue;
+    const state = read(pp(id, LAYOUT.productionState));
+    if (!state) continue;
+    const brief = read(pp(id, LAYOUT.briefJson));
+    const ts = new Date().toISOString();
+    d.prepare('INSERT OR REPLACE INTO projects (id, brand, topic, created_at, updated_at) VALUES (?, ?, ?, ?, ?)').run(id, brief?.brand ?? 'default', brief?.topic ?? '', ts, state.updatedAt ?? ts);
+    for (const s of state.stages ?? []) {
+      if (s.status === 'pending') continue;
+      d.prepare('INSERT OR REPLACE INTO stages (project_id, stage, status, input_hash, output, error, attempts, started_at, finished_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)')
+        .run(id, s.stage, s.status === 'running' ? 'failed' : s.status, s.inputHash ?? '', s.output ?? '', s.status === 'running' ? 'interrupted (imported from mirror)' : s.error ?? '', s.attempts ?? 0, null, s.finishedAt ?? null);
+    }
+    for (const a of read(pp(id, LAYOUT.assetManifest))?.assets ?? []) {
+      d.prepare(`INSERT OR REPLACE INTO assets (asset_id, project_id, scene_id, kind, path, provider, model, prompt, duration_sec, width, height, status, license, cost_usd, sha256, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`).run(a.assetId, id, a.sceneId ?? null, a.kind, a.path, a.provider, a.model ?? '', a.prompt ?? '', a.durationSec ?? null, a.width ?? null, a.height ?? null, a.status ?? 'draft', a.license ?? 'unknown', a.costUsd ?? 0, a.sha256 ?? '', a.createdAt ?? ts);
+    }
+    for (const c of read(pp(id, LAYOUT.costReport))?.entries ?? []) {
+      d.prepare('INSERT INTO costs (project_id, provider, model, operation, units, unit, estimate_usd, actual_usd, asset_id, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
+        .run(id, c.provider, c.model, c.operation, c.units ?? 0, c.unit ?? '', c.estimate_usd ?? 0, c.actual_usd ?? null, c.asset_id ?? null, c.created_at ?? ts);
+    }
+    imported.push(id);
+  }
+  return imported;
 }
 
 const now = () => new Date().toISOString();
@@ -174,7 +212,7 @@ export function exportState(projectId: string) {
     projectId,
     updatedAt: now(),
     nextStage: stages.find((s) => s.status !== 'done')?.stage ?? null,
-    stages: stages.map((s) => ({ stage: s.stage, status: s.status, attempts: s.attempts, output: s.output, error: s.error, finishedAt: s.finished_at })),
+    stages: stages.map((s) => ({ stage: s.stage, status: s.status, inputHash: s.input_hash, attempts: s.attempts, output: s.output, error: s.error, finishedAt: s.finished_at })),
     recentJobs: jobs,
   });
 }

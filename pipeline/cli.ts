@@ -38,6 +38,7 @@ ${color.bold('make-reels — free local Reels production pipeline')}
     init <id> [--brand default] [--topic "..."]
     brief <id>                     parse brief/brief.md → brief.json
     list                           list projects
+    sync-state [id]                rebuild DB rows from projects/*/production-state.json (new computer)
     status <id>                    stage-by-stage production state
 
   ${color.cyan('Creative gates (agents write the files, the CLI verifies)')}
@@ -72,6 +73,7 @@ async function main() {
 
   switch (cmd) {
     case 'doctor': return doctor();
+    case 'sync-state': { const { importMirrors, db: getDb } = await import('./lib/db.js'); const d = getDb(); const ids = importMirrors(d, id); return log.ok(`state imported from JSON mirrors: ${ids.join(', ') || 'nothing to import'}`); }
     case 'init': return init(need(), { brand: flags.brand as string | undefined, topic: flags.topic as string | undefined });
     case 'brief': return parseBrief(need());
     case 'list': return list();

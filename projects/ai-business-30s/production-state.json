@@ -1,11 +1,12 @@
 {
   "projectId": "ai-business-30s",
-  "updatedAt": "2026-11-04T15:13:52.065Z",
+  "updatedAt": "2026-11-04T16:05:21.356Z",
   "nextStage": null,
   "stages": [
     {
       "stage": "brief",
       "status": "done",
+      "inputHash": "a60f10e15764022e",
       "attempts": 0,
       "output": "brief/brief.json",
       "error": "",
@@ -14,6 +15,7 @@
     {
       "stage": "research",
       "status": "done",
+      "inputHash": "404744c44e00b7b603b232dc2ce30e960ac29e4c01c5340a8fe19b861e01c544",
       "attempts": 0,
       "output": "research/research-report.md",
       "error": "",
@@ -22,6 +24,7 @@
     {
       "stage": "creative",
       "status": "done",
+      "inputHash": "1b7c7da75bcb10073235735fe04096f6ca12d1f706f5240d8a27c9c350855955",
       "attempts": 0,
       "output": "creative/creative-direction.md",
       "error": "",
@@ -30,6 +33,7 @@
     {
       "stage": "script",
       "status": "done",
+      "inputHash": "714c60e6644621c1b9981a8f357f16945d7f75fdcc3796f561173f5cc3054ce3:e25a0c5da80331bfedf465af7f96c4fa402013607d80543b46695acc37f1b302",
       "attempts": 0,
       "output": "script/script.md, script/script.json",
       "error": "",
@@ -38,6 +42,7 @@
     {
       "stage": "storyboard",
       "status": "done",
+      "inputHash": "bdc2b14ca821f1929fbd46e9f72f401465ace15356a263f27e1db9a11f9a2a05:9004b669954bf37a4bd8df15fb61b7e98fc249494ffb4112ce002e488764667e",
       "attempts": 0,
       "output": "storyboard/storyboard.md, storyboard/shot-list.json",
       "error": "",
@@ -46,6 +51,7 @@
     {
       "stage": "approval-a",
       "status": "done",
+      "inputHash": "",
       "attempts": 0,
       "output": "approved by user: Повторно: по замечанию QC уточнена подпись s02 («делают то, что раньше не могли»), смысл утверждённого не менялся",
       "error": "",
@@ -54,6 +60,7 @@
     {
       "stage": "voice",
       "status": "done",
+      "inputHash": "0de988b33ca57087",
       "attempts": 7,
       "output": "audio/voice/voiceover.wav",
       "error": "",
@@ -62,6 +69,7 @@
     {
       "stage": "music",
       "status": "done",
+      "inputHash": "a09252885773ab62",
       "attempts": 7,
       "output": "audio/music/music.wav",
       "error": "",
@@ -70,6 +78,7 @@
     {
       "stage": "sfx",
       "status": "done",
+      "inputHash": "affe17d712b60068",
       "attempts": 7,
       "output": "audio/sfx/sfx-plan.json",
       "error": "",
@@ -78,6 +87,7 @@
     {
       "stage": "mix",
       "status": "done",
+      "inputHash": "9e8392b29fa309f2",
       "attempts": 7,
       "output": "audio/mix/mix-full.wav",
       "error": "",
@@ -86,6 +96,7 @@
     {
       "stage": "timeline",
       "status": "done",
+      "inputHash": "833791e785397ede",
       "attempts": 0,
       "output": "timeline.json",
       "error": "",
@@ -94,6 +105,7 @@
     {
       "stage": "storyboard-frames",
       "status": "done",
+      "inputHash": "",
       "attempts": 0,
       "output": "reports/storyboard-contact-sheet.png",
       "error": "",
@@ -102,6 +114,7 @@
     {
       "stage": "approval-b",
       "status": "done",
+      "inputHash": "",
       "attempts": 0,
       "output": "approved by user: Пользователь заранее разрешил этап B без остановки (тестовый ролик)",
       "error": "",
@@ -110,6 +123,7 @@
     {
       "stage": "preview",
       "status": "done",
+      "inputHash": "",
       "attempts": 5,
       "output": "renders\\preview.mp4",
       "error": "",
@@ -118,6 +132,7 @@
     {
       "stage": "approval-c",
       "status": "done",
+      "inputHash": "",
       "attempts": 0,
       "output": "approved by user: Пользователь заранее разрешил этап C без остановки (тестовый ролик)",
       "error": "",
@@ -126,6 +141,7 @@
     {
       "stage": "final",
       "status": "done",
+      "inputHash": "",
       "attempts": 5,
       "output": "renders\\final.mp4",
       "error": "",
@@ -134,6 +150,7 @@
     {
       "stage": "qc",
       "status": "done",
+      "inputHash": "",
       "attempts": 0,
       "output": "reports/quality-report.md",
       "error": "",
@@ -142,6 +159,7 @@
     {
       "stage": "approval-d",
       "status": "done",
+      "inputHash": "",
       "attempts": 0,
       "output": "approved by user: Пользователь заранее разрешил этап D без остановки (тестовый ролик); независимый QC: PASS 99/100",
       "error": "",
@@ -150,291 +168,12 @@
     {
       "stage": "deliver",
       "status": "done",
+      "inputHash": "",
       "attempts": 0,
       "output": "README.md",
       "error": "",
       "finishedAt": "2026-11-04T15:13:50.798Z"
     }
   ],
-  "recentJobs": [
-    {
-      "stage": "final",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "853 frames",
-      "duration_ms": 74664,
-      "created_at": "2026-11-04T15:11:22.226Z"
-    },
-    {
-      "stage": "preview",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "853 frames",
-      "duration_ms": 22149,
-      "created_at": "2026-11-04T15:09:46.000Z"
-    },
-    {
-      "stage": "final",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "853 frames",
-      "duration_ms": 76395,
-      "created_at": "2026-11-04T15:08:26.734Z"
-    },
-    {
-      "stage": "preview",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "853 frames",
-      "duration_ms": 20586,
-      "created_at": "2026-11-04T15:07:04.109Z"
-    },
-    {
-      "stage": "mix",
-      "provider": "ffmpeg",
-      "operation": "mix+loudnorm",
-      "status": "ok",
-      "detail": "{\"full\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":3.6},\"noMusic\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":3.6}}",
-      "duration_ms": null,
-      "created_at": "2026-11-04T15:06:27.181Z"
-    },
-    {
-      "stage": "music",
-      "provider": "procedural",
-      "operation": "generate",
-      "status": "ok",
-      "detail": "{\"source\":\"procedural\",\"preset\":\"cinematic-pulse\",\"bpm\":100,\"key\":\"A minor\",\"seed\":1100731143,\"durationSec\":28.93163265306123,\"bars\":14,\"license\":\"Original procedural composition generated locally by make-reels (pipeline/audio/music.ts). No third-party samples. Free for commercial use.\",\"generator\":",
-      "duration_ms": null,
-      "created_at": "2026-11-04T15:06:21.785Z"
-    },
-    {
-      "stage": "voice",
-      "provider": "piper",
-      "operation": "synthesize",
-      "status": "ok",
-      "detail": "8 scenes, 61 words, 26.83s",
-      "duration_ms": 14124,
-      "created_at": "2026-11-04T15:06:20.987Z"
-    },
-    {
-      "stage": "final",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "848 frames",
-      "duration_ms": 70611,
-      "created_at": "2026-11-04T15:03:16.395Z"
-    },
-    {
-      "stage": "preview",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "848 frames",
-      "duration_ms": 20266,
-      "created_at": "2026-11-04T15:01:59.482Z"
-    },
-    {
-      "stage": "mix",
-      "provider": "ffmpeg",
-      "operation": "mix+loudnorm",
-      "status": "ok",
-      "detail": "{\"full\":{\"integratedLufs\":-14.2,\"truePeakDb\":-1.5,\"lra\":3},\"noMusic\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":3.1}}",
-      "duration_ms": null,
-      "created_at": "2026-11-04T15:01:22.311Z"
-    },
-    {
-      "stage": "music",
-      "provider": "procedural",
-      "operation": "generate",
-      "status": "ok",
-      "detail": "{\"source\":\"procedural\",\"preset\":\"cinematic-pulse\",\"bpm\":100,\"key\":\"A minor\",\"seed\":1100731143,\"durationSec\":28.769092970521548,\"bars\":13,\"license\":\"Original procedural composition generated locally by make-reels (pipeline/audio/music.ts). No third-party samples. Free for commercial use.\",\"generator\"",
-      "duration_ms": null,
-      "created_at": "2026-11-04T15:01:17.431Z"
-    },
-    {
-      "stage": "voice",
-      "provider": "piper",
-      "operation": "synthesize",
-      "status": "ok",
-      "detail": "8 scenes, 61 words, 26.67s",
-      "duration_ms": 13897,
-      "created_at": "2026-11-04T15:01:16.658Z"
-    },
-    {
-      "stage": "final",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "832 frames",
-      "duration_ms": 69191,
-      "created_at": "2026-11-04T14:57:38.955Z"
-    },
-    {
-      "stage": "preview",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "832 frames",
-      "duration_ms": 19771,
-      "created_at": "2026-11-04T14:56:23.741Z"
-    },
-    {
-      "stage": "mix",
-      "provider": "ffmpeg",
-      "operation": "mix+loudnorm",
-      "status": "ok",
-      "detail": "{\"full\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":3},\"noMusic\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":3}}",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:55:36.872Z"
-    },
-    {
-      "stage": "music",
-      "provider": "procedural",
-      "operation": "generate",
-      "status": "ok",
-      "detail": "{\"source\":\"procedural\",\"preset\":\"cinematic-pulse\",\"bpm\":100,\"key\":\"A minor\",\"seed\":1100731143,\"durationSec\":28.220022675736963,\"bars\":13,\"license\":\"Original procedural composition generated locally by make-reels (pipeline/audio/music.ts). No third-party samples. Free for commercial use.\",\"generator\"",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:55:32.008Z"
-    },
-    {
-      "stage": "voice",
-      "provider": "piper",
-      "operation": "synthesize",
-      "status": "ok",
-      "detail": "8 scenes, 61 words, 26.12s",
-      "duration_ms": 9504,
-      "created_at": "2026-11-04T14:55:31.282Z"
-    },
-    {
-      "stage": "mix",
-      "provider": "ffmpeg",
-      "operation": "mix+loudnorm",
-      "status": "ok",
-      "detail": "{\"full\":{\"integratedLufs\":-14,\"truePeakDb\":-1.5,\"lra\":2.8},\"noMusic\":{\"integratedLufs\":-14,\"truePeakDb\":-1.5,\"lra\":2.8}}",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:54:40.449Z"
-    },
-    {
-      "stage": "music",
-      "provider": "procedural",
-      "operation": "generate",
-      "status": "ok",
-      "detail": "{\"source\":\"procedural\",\"preset\":\"cinematic-pulse\",\"bpm\":100,\"key\":\"A minor\",\"seed\":1100731143,\"durationSec\":28.37095238095238,\"bars\":13,\"license\":\"Original procedural composition generated locally by make-reels (pipeline/audio/music.ts). No third-party samples. Free for commercial use.\",\"generator\":",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:54:35.729Z"
-    },
-    {
-      "stage": "voice",
-      "provider": "piper",
-      "operation": "synthesize",
-      "status": "ok",
-      "detail": "8 scenes, 61 words, 26.27s",
-      "duration_ms": 9491,
-      "created_at": "2026-11-04T14:54:35.051Z"
-    },
-    {
-      "stage": "mix",
-      "provider": "ffmpeg",
-      "operation": "mix+loudnorm",
-      "status": "ok",
-      "detail": "{\"full\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":3.2},\"noMusic\":{\"integratedLufs\":-14,\"truePeakDb\":-1.5,\"lra\":3.2}}",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:53:17.431Z"
-    },
-    {
-      "stage": "music",
-      "provider": "procedural",
-      "operation": "generate",
-      "status": "ok",
-      "detail": "{\"source\":\"procedural\",\"preset\":\"cinematic-pulse\",\"bpm\":100,\"key\":\"A minor\",\"seed\":1100731143,\"durationSec\":28.34773242630385,\"bars\":13,\"license\":\"Original procedural composition generated locally by make-reels (pipeline/audio/music.ts). No third-party samples. Free for commercial use.\",\"generator\":",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:53:12.685Z"
-    },
-    {
-      "stage": "voice",
-      "provider": "piper",
-      "operation": "synthesize",
-      "status": "ok",
-      "detail": "8 scenes, 61 words, 26.25s",
-      "duration_ms": 10384,
-      "created_at": "2026-11-04T14:53:11.943Z"
-    },
-    {
-      "stage": "final",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "837 frames",
-      "duration_ms": 71667,
-      "created_at": "2026-11-04T14:51:37.858Z"
-    },
-    {
-      "stage": "preview",
-      "provider": "remotion",
-      "operation": "renderMedia",
-      "status": "ok",
-      "detail": "837 frames",
-      "duration_ms": 21305,
-      "created_at": "2026-11-04T14:50:09.819Z"
-    },
-    {
-      "stage": "mix",
-      "provider": "ffmpeg",
-      "operation": "mix+loudnorm",
-      "status": "ok",
-      "detail": "{\"full\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":2.6},\"noMusic\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":2.8}}",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:48:30.769Z"
-    },
-    {
-      "stage": "music",
-      "provider": "procedural",
-      "operation": "generate",
-      "status": "ok",
-      "detail": "{\"source\":\"procedural\",\"preset\":\"cinematic-pulse\",\"bpm\":100,\"key\":\"A minor\",\"seed\":1100731143,\"durationSec\":28.394172335600906,\"bars\":13,\"license\":\"Original procedural composition generated locally by make-reels (pipeline/audio/music.ts). No third-party samples. Free for commercial use.\",\"generator\"",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:48:25.496Z"
-    },
-    {
-      "stage": "voice",
-      "provider": "piper",
-      "operation": "synthesize",
-      "status": "ok",
-      "detail": "8 scenes, 61 words, 26.29s",
-      "duration_ms": 14283,
-      "created_at": "2026-11-04T14:48:24.715Z"
-    },
-    {
-      "stage": "mix",
-      "provider": "ffmpeg",
-      "operation": "mix+loudnorm",
-      "status": "ok",
-      "detail": "{\"full\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":3.2},\"noMusic\":{\"integratedLufs\":-14.1,\"truePeakDb\":-1.5,\"lra\":3.3}}",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:47:16.059Z"
-    },
-    {
-      "stage": "music",
-      "provider": "procedural",
-      "operation": "generate",
-      "status": "ok",
-      "detail": "{\"source\":\"procedural\",\"preset\":\"cinematic-pulse\",\"bpm\":100,\"key\":\"A minor\",\"seed\":1100731143,\"durationSec\":29.798979591836734,\"bars\":14,\"license\":\"Original procedural composition generated locally by make-reels (pipeline/audio/music.ts). No third-party samples. Free for commercial use.\",\"generator\"",
-      "duration_ms": null,
-      "created_at": "2026-11-04T14:47:10.947Z"
-    },
-    {
-      "stage": "voice",
-      "provider": "piper",
-      "operation": "synthesize",
-      "status": "ok",
-      "detail": "8 scenes, 61 words, 27.70s",
-      "duration_ms": 14635,
-      "created_at": "2026-11-04T14:47:10.191Z"
-    }
-  ]
+  "recentJobs": []
 }

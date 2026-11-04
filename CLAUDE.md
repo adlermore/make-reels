@@ -7,6 +7,11 @@ Talk to the user in Russian. Reels and all agent working documents are produced 
 **`hy` = professional Eastern Armenian, reformed orthography** (`.claude/skills/armenian-language-expert/reference/reels-style-guide.md`). `docs/` stays in Russian.
 Keep code, file names and identifiers in English.
 
+## Resume on another computer
+`git pull && npm install && npm run bootstrap`, then read `PROGRESS.md` → section «Точка продолжения» and continue from there.
+The DB (`data/studio.db`, not in git) is rebuilt automatically from `projects/*/production-state.json`. Media files are not in git — `produce` re-creates them.
+Before finishing work on a machine: commit and push (`git add -A && git commit && git push`).
+
 ## Start here
 - Produce a reel: `/create-reel [project-id] [topic]` (skill: `.claude/skills/create-reel/SKILL.md`).
 - Where a project stands: `npm run reel -- status <id>`. All commands: `npm run reel -- help`.

@@ -52,6 +52,13 @@ export async function music(id: string, opts: { force?: boolean; preset?: string
 }
 
 // ───────────────────────────── sfx ─────────────────────────────
+/** All rendered SFX files referenced by the plan exist (they are not in git). */
+function sfxFilesExist(id: string): boolean {
+  try {
+    const plan = JSON.parse(readText(pp(id, LAYOUT.sfxPlan))) as { ambient: string; cues: Array<{ file: string }> };
+    return [plan.ambient, ...plan.cues.map((c) => c.file)].every((f) => exists(pp(id, f)));
+  } catch { return false; }
+}
 interface PlannedCue { sceneId: string; kind: SfxCue['kind']; atSec: number; gainDb: number; file: string; reason: string }
 
 export async function sfx(id: string, opts: { force?: boolean } = {}) {
@@ -61,7 +68,7 @@ export async function sfx(id: string, opts: { force?: boolean } = {}) {
   const { windows, totalSec } = sceneWindows(vt, loadBrand(id).motion.transitionFrames / 30);
   const hash = sha256('sfx-rules-v2', vt.words.length, shots.map((s) => [s.sceneId, s.layout, s.transitionIn, s.sfx]), windows);
   const prev = getStage(id, 'sfx');
-  if (!opts.force && (prev?.status === 'done' || prev?.status === 'stale') && prev.input_hash === hash && exists(pp(id, LAYOUT.sfxPlan))) { setStage(id, 'sfx', 'done', { inputHash: hash }); return log.ok('sfx up to date'); }
+  if (!opts.force && (prev?.status === 'done' || prev?.status === 'stale') && prev.input_hash === hash && exists(pp(id, LAYOUT.sfxPlan)) && sfxFilesExist(id)) { setStage(id, 'sfx', 'done', { inputHash: hash }); return log.ok('sfx up to date'); }
   log.step(`Sound effects for ${id}`);
   setStage(id, 'sfx', 'running', { inputHash: hash });
   const dir = pp(id, LAYOUT.sfxDir);

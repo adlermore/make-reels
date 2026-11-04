@@ -11,11 +11,11 @@
 
 API-ключи и платные сервисы не нужны.
 
-## Быстрый старт
+## Быстрый старт (любой компьютер)
 ```bash
+git clone https://github.com/adlermore/make-reels.git && cd make-reels
 npm install
-npm run setup:voice
-npm run reel -- doctor
+npm run bootstrap     # голоса, проверка окружения, восстановление состояния проектов
 ```
 Затем в Claude Code набери `/create-reel`.
 

@@ -23,7 +23,7 @@ export async function voice(id: string, opts: { engine?: string; force?: boolean
   const FIT_POLICY = 'pace-v2'; // bump when the fitting logic changes so cached voice is invalidated
   const inputHash = sha256(FIT_POLICY, script.scenes.map((s) => [s.sceneId, s.narration, s.pronunciation]), brand.voice, opts.engine ?? '', brief.durationSec);
   const prev = getStage(id, 'voice');
-  if (!opts.force && (prev?.status === 'done' || prev?.status === 'stale') && prev.input_hash === inputHash && exists(pp(id, LAYOUT.voiceTiming))) {
+  if (!opts.force && (prev?.status === 'done' || prev?.status === 'stale') && prev.input_hash === inputHash && exists(pp(id, LAYOUT.voiceTiming)) && exists(pp(id, LAYOUT.voiceTrack))) {
     setStage(id, 'voice', 'done', { inputHash });
     log.ok('voice is up to date (same script + voice settings) — reusing approved audio');
     return;

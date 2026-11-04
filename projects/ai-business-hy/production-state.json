@@ -1,11 +1,12 @@
 {
   "projectId": "ai-business-hy",
-  "updatedAt": "2026-11-04T16:02:15.105Z",
-  "nextStage": "script",
+  "updatedAt": "2026-11-04T16:05:27.543Z",
+  "nextStage": "storyboard",
   "stages": [
     {
       "stage": "brief",
       "status": "done",
+      "inputHash": "d43c002122f28454",
       "attempts": 0,
       "output": "brief/brief.json",
       "error": "",
@@ -14,6 +15,7 @@
     {
       "stage": "research",
       "status": "done",
+      "inputHash": "63738aec052428dc39b902e5d3bec6686ddc123b0c777ab14daddcc017cb7c72",
       "attempts": 0,
       "output": "research/research-report.md",
       "error": "",
@@ -22,6 +24,7 @@
     {
       "stage": "creative",
       "status": "done",
+      "inputHash": "aa230d028bbdc3412e14812c3e58d777f60cf83d726f768d1bfe7e5f973048c3",
       "attempts": 0,
       "output": "creative/creative-direction.md",
       "error": "",
@@ -29,23 +32,26 @@
     },
     {
       "stage": "script",
-      "status": "failed",
+      "status": "done",
+      "inputHash": "e586b3209b3037046a9b5b2ad5c4fe508ee25d5ceeeaa3f0cb476c3245fa20c2:a7bfbf77697daa7ef519867b9a06a2a246cc2026ce2bcc4e1f7a7264ad46b40e",
       "attempts": 0,
-      "output": "",
-      "error": "missing script/script.md",
-      "finishedAt": "2026-11-04T16:02:15.093Z"
+      "output": "script/script.md, script/script.json",
+      "error": "",
+      "finishedAt": "2026-11-04T16:02:42.721Z"
     },
     {
       "stage": "storyboard",
-      "status": "pending",
+      "status": "failed",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
-      "error": "",
-      "finishedAt": null
+      "error": "missing storyboard/storyboard.md; s02: missing asset assets/illustrations/open-window.svg; s06: missing asset assets/illustrations/tool-without-process.svg; s07: missing asset assets/illustrations/rebuilt-process.svg",
+      "finishedAt": "2026-11-04T16:05:27.532Z"
     },
     {
       "stage": "approval-a",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -54,6 +60,7 @@
     {
       "stage": "voice",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -62,6 +69,7 @@
     {
       "stage": "music",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -70,6 +78,7 @@
     {
       "stage": "sfx",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -78,6 +87,7 @@
     {
       "stage": "mix",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -86,6 +96,7 @@
     {
       "stage": "timeline",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -94,6 +105,7 @@
     {
       "stage": "storyboard-frames",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -102,6 +114,7 @@
     {
       "stage": "approval-b",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -110,6 +123,7 @@
     {
       "stage": "preview",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -118,6 +132,7 @@
     {
       "stage": "approval-c",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -126,6 +141,7 @@
     {
       "stage": "final",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -134,6 +150,7 @@
     {
       "stage": "qc",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -142,6 +159,7 @@
     {
       "stage": "approval-d",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",
@@ -150,6 +168,7 @@
     {
       "stage": "deliver",
       "status": "pending",
+      "inputHash": "",
       "attempts": 0,
       "output": "",
       "error": "",

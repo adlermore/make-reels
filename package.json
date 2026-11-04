@@ -5,7 +5,7 @@
   "description": "AI Reels Production Studio — Remotion video engine + provider adapters + Claude Code agents",
   "type": "module",
   "engines": {
-    "node": ">=20"
+    "node": ">=22.13"
   },
   "scripts": {
     "reel": "node --disable-warning=ExperimentalWarning --import tsx pipeline/cli.ts",
@@ -14,7 +14,8 @@
     "test": "node --disable-warning=ExperimentalWarning --import tsx --test tests/*.test.ts",
     "setup:voice": "node scripts/setup-voice.mjs",
     "doctor": "npm run reel -- doctor",
-    "lint:hy-strings": "node --disable-warning=ExperimentalWarning --import tsx scripts/lint-hy-strings.ts"
+    "lint:hy-strings": "node --disable-warning=ExperimentalWarning --import tsx scripts/lint-hy-strings.ts",
+    "bootstrap": "node scripts/bootstrap.mjs"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.540",
