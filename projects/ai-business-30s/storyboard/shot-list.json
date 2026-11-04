@@ -1,0 +1,338 @@
+{
+  "projectId": "ai-business-30s",
+  "posterSceneId": "s01",
+  "continuity": {
+    "palette": "#0A0B14 navy base in every scene; violet #5B5BF6 = tool (aurora light, grid, AI modules in SVG), never text; gold #FFC857 = decision/result, exactly one gold spot per scene (keyword, stat ring, gold line, CTA button); coral #FF4D6D only in the fork SVG (s03); #8FE3FF only in system captions",
+    "recurringElements": "the 'golden decision line': hook keyword underline (s01) -> stat rings (s02, s05, s06) -> rising gold branch of the fork (s03) -> gold links of the rebuilt org chart (s04) -> gold bar + underline on 'перестроит' (s07) -> pulsing gold CTA button (s08). Monoline SVGs, stroke 8/5/3, round caps, viewBox 512. Source footnote in Inter 28 textMuted on every scene with a number",
+    "lighting": "evening board-room: soft violet key from the aurora/grid behind, warm gold rim only on accent elements, grain 0.06, vignette 0.45; flash only on the hook frame 0",
+    "typography": "Manrope 800 headlines, sentence case, tracking -0.025em; Inter 500 sublines/labels; stat kicker caps; headline <= 5-6 words, scene <= 7 words (footnote excluded); numbers as digits; no exclamation marks or ellipses; facts & CTA centred, arguments left-aligned"
+  },
+  "shots": [
+    {
+      "sceneId": "s01",
+      "plannedDurationSec": 4,
+      "layout": "hook",
+      "shotType": "graphic extreme close-up on a headline",
+      "cameraAngle": "frontal",
+      "cameraMovement": "fast scale punch-in (1.18 -> 1.0) that settles",
+      "subject": "headline '88% внедрили ИИ. Выигрывают не все.'",
+      "environment": "bare solid navy, nothing but the fact",
+      "lighting": "soft vignette, white flash on frame 0, gold glow on the keyword underline",
+      "composition": "centred two-line headline in the upper-middle of the content box, source footnote at the content-box bottom, >35% empty space",
+      "visualStyle": "cinematic commercial, premium minimal",
+      "motionDescription": "white flash on frame 0, words rise out of a mask one by one; the pause in the voice lands on the line break before 'Выигрывают не все.'; gold underline draws under 'не все'",
+      "background": {
+        "source": "motion",
+        "motionPreset": "solid",
+        "path": "",
+        "kenBurns": "none",
+        "dim": 0.3
+      },
+      "illustration": "",
+      "imagePrompt": "deep navy #0A0B14 empty backdrop with subtle film grain and vignette, minimal, vertical 9:16, no text",
+      "videoPrompt": "static deep navy backdrop, faint grain, very slow vignette breathing, cinematic, vertical 9:16",
+      "negativePrompt": "text, watermark, logos, robots, glowing brain, binary code, holograms, people",
+      "text": {
+        "headline": "88% внедрили ИИ. Выигрывают не все.",
+        "subline": "",
+        "items": [],
+        "keywords": [
+          "не",
+          "все"
+        ],
+        "source": "Источник: Stanford AI Index 2026 · мир"
+      },
+      "transitionIn": "none",
+      "sfx": [],
+      "continuityNotes": "Cover frame. Establishes the gold keyword underline = 'decision'. Impact + flash added automatically by the hook layout (keep impact <= -6 dB)."
+    },
+    {
+      "sceneId": "s02",
+      "plannedDurationSec": 5,
+      "layout": "stat",
+      "shotType": "graphic close-up, infographic counter",
+      "cameraAngle": "frontal",
+      "cameraMovement": "static; the ring fills to 58%",
+      "subject": "58% counter inside a gold ring",
+      "environment": "violet perspective grid = the world of tools (act 1 only)",
+      "lighting": "violet grid glow from below, gold rim on the ring, built-in light sweep",
+      "composition": "kicker pill on top, centred ring with counter, label below, footnote at content-box bottom",
+      "visualStyle": "premium minimal editorial infographic",
+      "motionDescription": "kicker slides in, counter rolls 0 -> 58, ring draws clockwise to 58%, label fades up, light sweep across the ring",
+      "background": {
+        "source": "motion",
+        "motionPreset": "grid",
+        "path": "",
+        "kenBurns": "none",
+        "dim": 0.35
+      },
+      "illustration": "",
+      "imagePrompt": "dark navy perspective grid with soft violet #5B5BF6 lines receding to horizon, minimal, vertical 9:16, no text",
+      "videoPrompt": "slow forward drift over a violet perspective grid on deep navy, calm, cinematic, vertical 9:16",
+      "negativePrompt": "text, logos, interface screenshots, robots, binary code, holograms",
+      "text": {
+        "headline": "Пользователи ИИ",
+        "subline": "",
+        "items": [],
+        "stat": {
+          "value": 58,
+          "prefix": "",
+          "suffix": "%",
+          "label": "делают то, что раньше не могли",
+          "decimals": 0
+        },
+        "keywords": [],
+        "source": "Источник: Microsoft Work Trend Index 2026 · 10 стран"
+      },
+      "transitionIn": "blur-slide",
+      "sfx": [],
+      "continuityNotes": "Reads as '58% пользователей ИИ — делают недоступное раньше'. Grid appears only in act 1. Gold spot = ring only. Global figure: no Russian cues."
+    },
+    {
+      "sceneId": "s03",
+      "plannedDurationSec": 3,
+      "layout": "kinetic-title",
+      "shotType": "graphic medium shot: illustration over headline",
+      "cameraAngle": "frontal",
+      "cameraMovement": "static; the illustration floats slightly upward",
+      "subject": "the 'Fork' illustration and the turn headline",
+      "environment": "aurora — the grid is gone: the tool is no longer the hero",
+      "lighting": "soft violet aurora behind, headline kept off the brightest aurora spot; gold glow on the rising branch",
+      "composition": "illustration (~520 px) on top, gold bar, left-aligned headline below (author's voice), lots of air on the right",
+      "visualStyle": "monoline infographic, cinematic commercial",
+      "motionDescription": "diagonal wipe from bottom-left (mirrors the rising gold branch); fork strokes draw on in ~1.2 s — gold branch rises up-right, coral branch flattens and breaks; then words rise one by one, 'управление' turns gold with underline",
+      "background": {
+        "source": "motion",
+        "motionPreset": "aurora",
+        "path": "",
+        "kenBurns": "none",
+        "dim": 0.45
+      },
+      "illustration": "assets/illustrations/fork.svg",
+      "imagePrompt": "minimal monoline line-art on deep navy: a line from the bottom splits into two branches, a gold branch rising up-right with an arrow, a coral branch flattening and breaking off, vertical 9:16",
+      "videoPrompt": "a thin line draws upward and splits; one gold branch keeps rising, a coral one stalls; soft violet aurora light, calm, cinematic",
+      "negativePrompt": "text, logos, robots, glowing brain, 3D, gradients on lines, people faces",
+      "text": {
+        "headline": "Решает не сервис, а управление",
+        "subline": "",
+        "items": [],
+        "keywords": [
+          "управление"
+        ],
+        "source": ""
+      },
+      "transitionIn": "wipe",
+      "sfx": [],
+      "continuityNotes": "The only scene with semantic coral (stalled path in the SVG). Whoosh on the wipe is automatic. Gold spot = rising branch + keyword (same meaning: the decision)."
+    },
+    {
+      "sceneId": "s04",
+      "plannedDurationSec": 3,
+      "layout": "fullbleed",
+      "shotType": "graphic wide: rebuilt org chart with headline",
+      "cameraAngle": "frontal",
+      "cameraMovement": "hard cut, static frame; illustration floats gently",
+      "subject": "the 'Rebuilt org chart' illustration and the 'вдвое' claim",
+      "environment": "aurora with deeper dim — argument world, calmer than s03",
+      "lighting": "dimmed violet aurora, gold links in the chart glow warm",
+      "composition": "content anchored to the lower part of the content box (above caption band and footnote): illustration ~520 px, left-aligned headline below it; upper third left empty for air",
+      "visualStyle": "monoline infographic, editorial",
+      "motionDescription": "hard cut with impact (re-hook); org-chart blocks and gold links draw on, two violet AI modules fill in inside the chain; headline rises word by word, 'вдвое' gold with underline",
+      "background": {
+        "source": "motion",
+        "motionPreset": "aurora",
+        "path": "",
+        "kenBurns": "none",
+        "dim": 0.55
+      },
+      "illustration": "assets/illustrations/rebuilt-org-chart.svg",
+      "imagePrompt": "minimal monoline org chart on deep navy: 5 rounded blocks linked by gold lines, two violet chip-like modules embedded in the chain, vertical 9:16",
+      "videoPrompt": "org-chart blocks connect with gold lines drawing in sequence, two violet modules light up in the chain, calm cinematic aurora behind",
+      "negativePrompt": "text, logos, people photos, robots, interface screenshots, 3D",
+      "text": {
+        "headline": "Управление важнее навыков — вдвое",
+        "subline": "",
+        "items": [],
+        "keywords": [
+          "вдвое"
+        ],
+        "source": "Источник: Microsoft Work Trend Index 2026 · 10 стран"
+      },
+      "transitionIn": "none",
+      "sfx": [
+        {
+          "kind": "impact",
+          "offsetSec": 0,
+          "gainDb": -6
+        }
+      ],
+      "continuityNotes": "Re-hook at ~12 s: hard cut + impact (not auto for this layout, hence the cue). 'Вдвое' as a word, not a counter. Gold spot = links + keyword. Violet only inside the SVG modules."
+    },
+    {
+      "sceneId": "s05",
+      "plannedDurationSec": 4,
+      "layout": "stat",
+      "shotType": "graphic close-up, infographic counter",
+      "cameraAngle": "frontal",
+      "cameraMovement": "static; the ring fills only a quarter",
+      "subject": "26% counter with a quarter-filled gold ring",
+      "environment": "bare solid navy — naked fact",
+      "lighting": "neutral, gold rim on the short ring arc, built-in light sweep",
+      "composition": "kicker on top, centred ring with counter, label below, footnote at content-box bottom; the empty three quarters of the ring carry the meaning",
+      "visualStyle": "premium minimal editorial infographic",
+      "motionDescription": "counter rolls 0 -> 26, ring stops at a quarter and holds, label fades up, light sweep",
+      "background": {
+        "source": "motion",
+        "motionPreset": "solid",
+        "path": "",
+        "kenBurns": "none",
+        "dim": 0.3
+      },
+      "illustration": "",
+      "imagePrompt": "deep navy empty backdrop, faint grain, vertical 9:16, no text",
+      "videoPrompt": "static deep navy backdrop, faint grain, cinematic",
+      "negativePrompt": "text, logos, robots, holograms",
+      "text": {
+        "headline": "Управление ИИ",
+        "subline": "",
+        "items": [],
+        "stat": {
+          "value": 26,
+          "prefix": "",
+          "suffix": "%",
+          "label": "видят единую линию руководства",
+          "decimals": 0
+        },
+        "keywords": [
+          "лишь"
+        ],
+        "source": "Источник: Microsoft Work Trend Index 2026 · 10 стран"
+      },
+      "transitionIn": "blur-slide",
+      "sfx": [],
+      "continuityNotes": "Same ring treatment as s02 — the viewer compares 58% vs 26% visually. Global figure, no Russian cues."
+    },
+    {
+      "sceneId": "s06",
+      "plannedDurationSec": 4,
+      "layout": "stat",
+      "shotType": "graphic close-up, infographic counter",
+      "cameraAngle": "frontal",
+      "cameraMovement": "content slides in from below (scale change: world -> Russia), then static",
+      "subject": "71% counter in a gold ring",
+      "environment": "bare solid navy, no map, no flag",
+      "lighting": "neutral, gold rim on the ring, built-in light sweep",
+      "composition": "kicker on top, centred ring with counter, label below, footnote at content-box bottom",
+      "visualStyle": "premium minimal editorial infographic",
+      "motionDescription": "slide up from below, counter rolls 0 -> 71, ring draws to 71%, label 'крупных компаний России' fades up, light sweep",
+      "background": {
+        "source": "motion",
+        "motionPreset": "solid",
+        "path": "",
+        "kenBurns": "none",
+        "dim": 0.3
+      },
+      "illustration": "",
+      "imagePrompt": "deep navy empty backdrop, faint grain, vertical 9:16, no text",
+      "videoPrompt": "static deep navy backdrop, faint grain, cinematic",
+      "negativePrompt": "text, logos, map of Russia, flags, robots, holograms",
+      "text": {
+        "headline": "Генеративный ИИ",
+        "subline": "",
+        "items": [],
+        "stat": {
+          "value": 71,
+          "prefix": "",
+          "suffix": "%",
+          "label": "крупных компаний России",
+          "decimals": 0
+        },
+        "keywords": [
+          "России"
+        ],
+        "source": "Источник: Яков и Партнёры × Яндекс, 2025"
+      },
+      "transitionIn": "slide",
+      "sfx": [],
+      "continuityNotes": "Only scene with 'России' — 71% explicitly labelled as large companies. Slide used exactly once. Music swells here."
+    },
+    {
+      "sceneId": "s07",
+      "plannedDurationSec": 3,
+      "layout": "kinetic-title",
+      "shotType": "typographic medium shot",
+      "cameraAngle": "frontal",
+      "cameraMovement": "static; gold bar grows left to right",
+      "subject": "conclusion headline",
+      "environment": "aurora — back to the world of thought",
+      "lighting": "soft violet aurora, headline away from the bright spot, warm gold on the keyword",
+      "composition": "left-aligned headline in the middle of the content box, gold bar above it, generous air",
+      "visualStyle": "cinematic commercial typography",
+      "motionDescription": "gold bar scales in from the left (the golden line returns), words rise one by one, 'перестроит' turns gold and its underline draws left to right",
+      "background": {
+        "source": "motion",
+        "motionPreset": "aurora",
+        "path": "",
+        "kenBurns": "none",
+        "dim": 0.45
+      },
+      "illustration": "",
+      "imagePrompt": "soft violet aurora light on deep navy, calm, minimal, vertical 9:16, no text",
+      "videoPrompt": "slow drifting violet aurora over deep navy, calm, cinematic, vertical 9:16",
+      "negativePrompt": "text, logos, robots, glowing brain, holograms",
+      "text": {
+        "headline": "Выиграет тот, кто перестроит",
+        "subline": "",
+        "items": [],
+        "keywords": [
+          "перестроит"
+        ],
+        "source": ""
+      },
+      "transitionIn": "blur-slide",
+      "sfx": [
+        {
+          "kind": "shimmer",
+          "offsetSec": 0.6,
+          "gainDb": -14
+        }
+      ],
+      "continuityNotes": "Bookend of the hook: 'Выигрывают не все' -> 'Выиграет тот, кто перестроит'. Shimmer timed to the underline drawing, not on top of the keyword word."
+    },
+    {
+      "sceneId": "s08",
+      "plannedDurationSec": 4,
+      "layout": "cta",
+      "shotType": "end card",
+      "cameraAngle": "frontal",
+      "cameraMovement": "static; only the button pulses",
+      "subject": "logo, CTA headline, gold 'Подписаться' button",
+      "environment": "warm particles — the result, used only here",
+      "lighting": "warm gold glow on the button, soft particles",
+      "composition": "logo top, centred headline, button below, nothing near the caption band",
+      "visualStyle": "calm brand end card",
+      "motionDescription": "fade in (exhale), logo scales in, headline rises, button appears with pop and pulses with light sweep; music fades in the 1.6 s tail",
+      "background": {
+        "source": "motion",
+        "motionPreset": "particles",
+        "path": "",
+        "kenBurns": "none",
+        "dim": 0.35
+      },
+      "illustration": "",
+      "imagePrompt": "warm soft bokeh particles drifting on deep navy, gold and violet, calm, vertical 9:16, no text",
+      "videoPrompt": "slow warm particles drifting on deep navy, gentle, cinematic end card background",
+      "negativePrompt": "text, logos of other brands, robots, flashes",
+      "text": {
+        "headline": "Подпишись на разборы про ИИ",
+        "subline": "Подписаться",
+        "items": [],
+        "keywords": [],
+        "source": ""
+      },
+      "transitionIn": "fade",
+      "sfx": [],
+      "continuityNotes": "Pop on the button is automatic. Only the button pulses; particles only in this scene. Gold spot = button."
+    }
+  ]
+}

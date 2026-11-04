@@ -1,0 +1,365 @@
+{
+  "engine": "piper",
+  "voice": "ru_RU-dmitri-medium",
+  "totalSec": 26.831632653061227,
+  "leadInSec": 0.35,
+  "scenes": [
+    {
+      "sceneId": "s01",
+      "startSec": 0.35,
+      "endSec": 4.367052154195011,
+      "file": "audio/voice/s01.raw.wav"
+    },
+    {
+      "sceneId": "s02",
+      "startSec": 4.687052154195011,
+      "endSec": 8.35580498866213,
+      "file": "audio/voice/s02.raw.wav"
+    },
+    {
+      "sceneId": "s03",
+      "startSec": 8.675804988662131,
+      "endSec": 10.823650793650794,
+      "file": "audio/voice/s03.raw.wav"
+    },
+    {
+      "sceneId": "s04",
+      "startSec": 11.143650793650794,
+      "endSec": 13.732675736961452,
+      "file": "audio/voice/s04.raw.wav"
+    },
+    {
+      "sceneId": "s05",
+      "startSec": 14.052675736961453,
+      "endSec": 17.396349206349207,
+      "file": "audio/voice/s05.raw.wav"
+    },
+    {
+      "sceneId": "s06",
+      "startSec": 17.716349206349207,
+      "endSec": 21.373492063492066,
+      "file": "audio/voice/s06.raw.wav"
+    },
+    {
+      "sceneId": "s07",
+      "startSec": 21.693492063492066,
+      "endSec": 23.980657596371884,
+      "file": "audio/voice/s07.raw.wav"
+    },
+    {
+      "sceneId": "s08",
+      "startSec": 24.300657596371884,
+      "endSec": 26.831632653061227,
+      "file": "audio/voice/s08.raw.wav"
+    }
+  ],
+  "words": [
+    {
+      "text": "Восемьдесят",
+      "startMs": 385,
+      "endMs": 919
+    },
+    {
+      "text": "восемь",
+      "startMs": 965,
+      "endMs": 1279
+    },
+    {
+      "text": "процентов",
+      "startMs": 1314,
+      "endMs": 1871
+    },
+    {
+      "text": "компаний",
+      "startMs": 1929,
+      "endMs": 2347
+    },
+    {
+      "text": "внедрили",
+      "startMs": 2370,
+      "endMs": 2776
+    },
+    {
+      "text": "ИИ.",
+      "startMs": 2858,
+      "endMs": 3136
+    },
+    {
+      "text": "Выигрывают",
+      "startMs": 3171,
+      "endMs": 3659
+    },
+    {
+      "text": "не",
+      "startMs": 3694,
+      "endMs": 3787
+    },
+    {
+      "text": "все.",
+      "startMs": 3821,
+      "endMs": 4146
+    },
+    {
+      "text": "Пятьдесят",
+      "startMs": 4722,
+      "endMs": 5163
+    },
+    {
+      "text": "восемь",
+      "startMs": 5221,
+      "endMs": 5523
+    },
+    {
+      "text": "процентов",
+      "startMs": 5546,
+      "endMs": 6069
+    },
+    {
+      "text": "пользователей",
+      "startMs": 6150,
+      "endMs": 6684
+    },
+    {
+      "text": "делают",
+      "startMs": 6719,
+      "endMs": 7055
+    },
+    {
+      "text": "то,",
+      "startMs": 7114,
+      "endMs": 7241
+    },
+    {
+      "text": "что",
+      "startMs": 7288,
+      "endMs": 7415
+    },
+    {
+      "text": "раньше",
+      "startMs": 7450,
+      "endMs": 7706
+    },
+    {
+      "text": "не",
+      "startMs": 7740,
+      "endMs": 7845
+    },
+    {
+      "text": "могли.",
+      "startMs": 7880,
+      "endMs": 8193
+    },
+    {
+      "text": "Но",
+      "startMs": 8757,
+      "endMs": 8827
+    },
+    {
+      "text": "решает",
+      "startMs": 8873,
+      "endMs": 9233
+    },
+    {
+      "text": "не",
+      "startMs": 9268,
+      "endMs": 9361
+    },
+    {
+      "text": "сервис,",
+      "startMs": 9419,
+      "endMs": 9802
+    },
+    {
+      "text": "а",
+      "startMs": 9906,
+      "endMs": 9953
+    },
+    {
+      "text": "управление.",
+      "startMs": 9988,
+      "endMs": 10661
+    },
+    {
+      "text": "Оно",
+      "startMs": 11190,
+      "endMs": 11399
+    },
+    {
+      "text": "влияет",
+      "startMs": 11422,
+      "endMs": 11852
+    },
+    {
+      "text": "на",
+      "startMs": 11898,
+      "endMs": 11945
+    },
+    {
+      "text": "результат",
+      "startMs": 11980,
+      "endMs": 12398
+    },
+    {
+      "text": "вдвое",
+      "startMs": 12421,
+      "endMs": 12734
+    },
+    {
+      "text": "сильнее",
+      "startMs": 12781,
+      "endMs": 13094
+    },
+    {
+      "text": "навыков.",
+      "startMs": 13117,
+      "endMs": 13570
+    },
+    {
+      "text": "Единую",
+      "startMs": 14099,
+      "endMs": 14540
+    },
+    {
+      "text": "линию",
+      "startMs": 14575,
+      "endMs": 14842
+    },
+    {
+      "text": "руководства",
+      "startMs": 14865,
+      "endMs": 15388
+    },
+    {
+      "text": "видят",
+      "startMs": 15423,
+      "endMs": 15701
+    },
+    {
+      "text": "лишь",
+      "startMs": 15736,
+      "endMs": 15922
+    },
+    {
+      "text": "двадцать",
+      "startMs": 15968,
+      "endMs": 16317
+    },
+    {
+      "text": "шесть",
+      "startMs": 16340,
+      "endMs": 16549
+    },
+    {
+      "text": "процентов.",
+      "startMs": 16572,
+      "endMs": 17176
+    },
+    {
+      "text": "В",
+      "startMs": 17751,
+      "endMs": 17809
+    },
+    {
+      "text": "России",
+      "startMs": 17832,
+      "endMs": 18158
+    },
+    {
+      "text": "нейросети",
+      "startMs": 18204,
+      "endMs": 18703
+    },
+    {
+      "text": "используют",
+      "startMs": 18726,
+      "endMs": 19214
+    },
+    {
+      "text": "семьдесят",
+      "startMs": 19237,
+      "endMs": 19690
+    },
+    {
+      "text": "один",
+      "startMs": 19713,
+      "endMs": 19934
+    },
+    {
+      "text": "процент",
+      "startMs": 19969,
+      "endMs": 20340
+    },
+    {
+      "text": "крупных",
+      "startMs": 20387,
+      "endMs": 20677
+    },
+    {
+      "text": "компаний.",
+      "startMs": 20723,
+      "endMs": 21246
+    },
+    {
+      "text": "Выиграет",
+      "startMs": 21821,
+      "endMs": 22251
+    },
+    {
+      "text": "тот,",
+      "startMs": 22286,
+      "endMs": 22460
+    },
+    {
+      "text": "кто",
+      "startMs": 22518,
+      "endMs": 22692
+    },
+    {
+      "text": "перестроит",
+      "startMs": 22715,
+      "endMs": 23168
+    },
+    {
+      "text": "процессы.",
+      "startMs": 23203,
+      "endMs": 23760
+    },
+    {
+      "text": "Подпишись",
+      "startMs": 24335,
+      "endMs": 24765
+    },
+    {
+      "text": "больше",
+      "startMs": 24881,
+      "endMs": 25148
+    },
+    {
+      "text": "разборов",
+      "startMs": 25183,
+      "endMs": 25578
+    },
+    {
+      "text": "про",
+      "startMs": 25624,
+      "endMs": 25740
+    },
+    {
+      "text": "ИИ",
+      "startMs": 25764,
+      "endMs": 25996
+    },
+    {
+      "text": "для",
+      "startMs": 26019,
+      "endMs": 26123
+    },
+    {
+      "text": "бизнеса.",
+      "startMs": 26158,
+      "endMs": 26646
+    }
+  ],
+  "lengthScale": 1.06,
+  "exactWordTiming": true
+}

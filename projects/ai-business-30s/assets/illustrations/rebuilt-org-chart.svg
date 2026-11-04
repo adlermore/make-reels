@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Hero first: gold links, top to bottom, left to right -->
+  <path d="M256 120 L256 408" fill="none" stroke="#FFC857" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160 240 L352 240" fill="none" stroke="#FFC857" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160 408 L352 408" fill="none" stroke="#FFC857" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256" cy="240" r="8" fill="#FFC857" stroke="#FFC857" stroke-width="3"/>
+  <circle cx="256" cy="408" r="8" fill="#FFC857" stroke="#FFC857" stroke-width="3"/>
+
+  <!-- Owner block with abstract figure -->
+  <rect x="192" y="48" width="128" height="72" rx="14" fill="none" stroke="#F5F7FF" stroke-width="5"/>
+  <circle cx="256" cy="74" r="10" fill="none" stroke="#F5F7FF" stroke-width="5"/>
+  <path d="M236 106 C236 94 276 94 276 106" fill="none" stroke="#F5F7FF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Chain of four blocks -->
+  <rect x="48" y="208" width="112" height="64" rx="14" fill="none" stroke="#F5F7FF" stroke-width="5"/>
+  <rect x="352" y="208" width="112" height="64" rx="14" fill="none" stroke="#F5F7FF" stroke-width="5"/>
+  <rect x="48" y="376" width="112" height="64" rx="14" fill="none" stroke="#F5F7FF" stroke-width="5"/>
+  <rect x="352" y="376" width="112" height="64" rx="14" fill="none" stroke="#F5F7FF" stroke-width="5"/>
+  <line x1="72" y1="232" x2="136" y2="232" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+  <line x1="72" y1="248" x2="112" y2="248" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+  <line x1="376" y1="232" x2="440" y2="232" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+  <line x1="376" y1="248" x2="416" y2="248" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+  <line x1="72" y1="400" x2="136" y2="400" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+  <line x1="72" y1="416" x2="112" y2="416" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+  <line x1="376" y1="400" x2="440" y2="400" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+  <line x1="376" y1="416" x2="416" y2="416" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- AI module 1, sitting on the gold spine -->
+  <rect x="236" y="160" width="40" height="40" rx="8" fill="#5B5BF6" stroke="#5B5BF6" stroke-width="5"/>
+  <rect x="250" y="174" width="12" height="12" rx="3" fill="none" stroke="#F5F7FF" stroke-width="3"/>
+  <line x1="224" y1="172" x2="234" y2="172" stroke="#5B5BF6" stroke-width="5" stroke-linecap="round"/>
+  <line x1="224" y1="188" x2="234" y2="188" stroke="#5B5BF6" stroke-width="5" stroke-linecap="round"/>
+  <line x1="278" y1="172" x2="288" y2="172" stroke="#5B5BF6" stroke-width="5" stroke-linecap="round"/>
+  <line x1="278" y1="188" x2="288" y2="188" stroke="#5B5BF6" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- AI module 2, sitting on the gold spine -->
+  <rect x="236" y="304" width="40" height="40" rx="8" fill="#5B5BF6" stroke="#5B5BF6" stroke-width="5"/>
+  <rect x="250" y="318" width="12" height="12" rx="3" fill="none" stroke="#F5F7FF" stroke-width="3"/>
+  <line x1="224" y1="316" x2="234" y2="316" stroke="#5B5BF6" stroke-width="5" stroke-linecap="round"/>
+  <line x1="224" y1="332" x2="234" y2="332" stroke="#5B5BF6" stroke-width="5" stroke-linecap="round"/>
+  <line x1="278" y1="316" x2="288" y2="316" stroke="#5B5BF6" stroke-width="5" stroke-linecap="round"/>
+  <line x1="278" y1="332" x2="288" y2="332" stroke="#5B5BF6" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Block backings: 6% light. Group opacity is used because the engine's CSS forces fill-opacity on every shape. -->
+  <g opacity="0.06">
+    <rect x="192" y="48" width="128" height="72" rx="14" fill="#F5F7FF" stroke="none"/>
+    <rect x="48" y="208" width="112" height="64" rx="14" fill="#F5F7FF" stroke="none"/>
+    <rect x="352" y="208" width="112" height="64" rx="14" fill="#F5F7FF" stroke="none"/>
+    <rect x="48" y="376" width="112" height="64" rx="14" fill="#F5F7FF" stroke="none"/>
+    <rect x="352" y="376" width="112" height="64" rx="14" fill="#F5F7FF" stroke="none"/>
+  </g>
+</svg>

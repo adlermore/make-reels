@@ -1,0 +1,60 @@
+{
+  "id": "default",
+  "name": "Reels Studio",
+  "instagramHandle": "@reels.studio",
+  "logo": "logo.svg",
+  "colors": {
+    "primary": "#5B5BF6",
+    "secondary": "#FF4D6D",
+    "accent": "#FFC857",
+    "background": "#0A0B14",
+    "text": "#F5F7FF",
+    "textMuted": "#A9B0C7"
+  },
+  "typography": {
+    "headingFont": "Manrope",
+    "bodyFont": "Inter",
+    "headingWeight": 800,
+    "bodyWeight": 500,
+    "headingCase": "none",
+    "letterSpacingEm": -0.025
+  },
+  "motion": {
+    "style": "dynamic",
+    "defaultTransition": "blur-slide",
+    "transitionFrames": 10,
+    "grain": 0.06,
+    "vignette": 0.45
+  },
+  "captions": {
+    "enabled": true,
+    "font": "Montserrat",
+    "fontSize": 72,
+    "color": "#FFFFFF",
+    "highlightColor": "#FFC857",
+    "keywordColor": "#8FE3FF",
+    "strokeColor": "#000000",
+    "strokeWidth": 10,
+    "position": "lower-third",
+    "maxWordsPerPage": 3,
+    "uppercase": false
+  },
+  "voice": {
+    "engine": "piper",
+    "piperVoice": "ru_RU-dmitri-medium",
+    "sapiVoice": "Microsoft Irina Desktop",
+    "lengthScale": 0.95,
+    "sapiRate": 1,
+    "scenePauseSec": 0.32
+  },
+  "music": {
+    "preset": "cinematic-pulse",
+    "bpm": 100,
+    "bedGainDb": -15,
+    "libraryTrack": ""
+  },
+  "visual": {
+    "mood": "premium dark tech: deep navy, violet light, warm gold accents, clean typography, calm confidence",
+    "backgroundPreset": "aurora"
+  }
+}

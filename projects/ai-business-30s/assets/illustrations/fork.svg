@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Hero first: gold branch grows from the fork node up-right -->
+  <path d="M176 288 C224 264 280 240 320 192 C352 152 376 120 400 96" fill="none" stroke="#FFC857" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="360,96 400,96 400,136" fill="none" stroke="#FFC857" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Trunk, drawn bottom to top -->
+  <path d="M176 464 L176 300" fill="none" stroke="#F5F7FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="144" y1="464" x2="208" y2="464" stroke="#A9B0C7" stroke-width="3" stroke-linecap="round"/>
+  <!-- Fork node -->
+  <circle cx="176" cy="288" r="24" fill="none" stroke="#A9B0C7" stroke-width="3"/>
+  <circle cx="176" cy="288" r="12" fill="#F5F7FF" stroke="#F5F7FF" stroke-width="3"/>
+  <!-- Coral branch: flattens and breaks off -->
+  <path d="M176 288 C216 304 248 328 288 328 L376 328" fill="none" stroke="#FF4D6D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Stagnation: fading muted dashes -->
+  <line x1="396" y1="328" x2="408" y2="328" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+  <line x1="424" y1="328" x2="432" y2="328" stroke="#A9B0C7" stroke-width="5" stroke-linecap="round"/>
+  <line x1="448" y1="328" x2="452" y2="328" stroke="#A9B0C7" stroke-width="3" stroke-linecap="round"/>
+</svg>

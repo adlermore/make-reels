@@ -1,0 +1,160 @@
+{
+  "projectId": "ai-business-hy",
+  "updatedAt": "2026-11-04T16:02:15.105Z",
+  "nextStage": "script",
+  "stages": [
+    {
+      "stage": "brief",
+      "status": "done",
+      "attempts": 0,
+      "output": "brief/brief.json",
+      "error": "",
+      "finishedAt": "2026-11-04T15:42:08.178Z"
+    },
+    {
+      "stage": "research",
+      "status": "done",
+      "attempts": 0,
+      "output": "research/research-report.md",
+      "error": "",
+      "finishedAt": "2026-11-04T15:52:32.982Z"
+    },
+    {
+      "stage": "creative",
+      "status": "done",
+      "attempts": 0,
+      "output": "creative/creative-direction.md",
+      "error": "",
+      "finishedAt": "2026-11-04T16:00:00.966Z"
+    },
+    {
+      "stage": "script",
+      "status": "failed",
+      "attempts": 0,
+      "output": "",
+      "error": "missing script/script.md",
+      "finishedAt": "2026-11-04T16:02:15.093Z"
+    },
+    {
+      "stage": "storyboard",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "approval-a",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "voice",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "music",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "sfx",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "mix",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "timeline",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "storyboard-frames",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "approval-b",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "preview",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "approval-c",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "final",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "qc",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "approval-d",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    },
+    {
+      "stage": "deliver",
+      "status": "pending",
+      "attempts": 0,
+      "output": "",
+      "error": "",
+      "finishedAt": null
+    }
+  ],
+  "recentJobs": []
+}

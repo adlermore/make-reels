@@ -1,0 +1,66 @@
+{
+  "id": "minimal-light",
+  "name": "Studio Light",
+  "instagramHandle": "@studio.light",
+  "logo": "",
+  "colors": {
+    "primary": "#2B4BFF",
+    "secondary": "#FF6B35",
+    "accent": "#2B4BFF",
+    "background": "#F4F1EA",
+    "text": "#121417",
+    "textMuted": "#5B6070"
+  },
+  "typography": {
+    "headingFont": "Unbounded",
+    "bodyFont": "Onest",
+    "headingWeight": 700,
+    "bodyWeight": 500,
+    "headingCase": "uppercase",
+    "letterSpacingEm": -0.02
+  },
+  "motion": {
+    "style": "punchy",
+    "defaultTransition": "slide",
+    "transitionFrames": 8,
+    "grain": 0.03,
+    "vignette": 0.12
+  },
+  "captions": {
+    "enabled": true,
+    "font": "GolosText",
+    "fontSize": 70,
+    "color": "#121417",
+    "highlightColor": "#2B4BFF",
+    "keywordColor": "#2B4BFF",
+    "strokeColor": "#FFFFFF",
+    "strokeWidth": 8,
+    "position": "lower-third",
+    "maxWordsPerPage": 4,
+    "uppercase": false,
+    "highlightStyle": "pill",
+    "hideWhenOnScreen": true
+  },
+  "voice": {
+    "engine": "piper",
+    "piperVoice": "hy_AM-gor-medium",
+    "sapiVoice": "Microsoft Irina Desktop",
+    "lengthScale": 0.95,
+    "sapiRate": 1,
+    "scenePauseSec": 0.18,
+    "piperVoiceByLanguage": {
+      "hy": "hy_AM-gor-medium",
+      "ru": "ru_RU-dmitri-medium"
+    }
+  },
+  "music": {
+    "preset": "uplifting-corporate",
+    "bpm": 112,
+    "bedGainDb": -16,
+    "libraryTrack": ""
+  },
+  "visual": {
+    "mood": "clean editorial minimalism: warm paper background, ink-black type, one electric-blue accent, generous negative space",
+    "backgroundPreset": "solid"
+  }
+}

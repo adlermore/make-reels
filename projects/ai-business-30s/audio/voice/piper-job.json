@@ -1,0 +1,46 @@
+{
+  "model": "C:\\Users\\User\\OneDrive\\Desktop\\make-reels\\tools\\piper-voices\\ru_RU-dmitri-medium.onnx",
+  "lengthScale": 1.06,
+  "scenes": [
+    {
+      "sceneId": "s01",
+      "text": "Восемьдесят восемь процентов компаний внедрили [[ ˈiːʔˈiː ]] . Выигрывают не все.",
+      "out": "C:\\Users\\User\\OneDrive\\Desktop\\make-reels\\projects\\ai-business-30s\\audio\\voice\\s01.raw.wav"
+    },
+    {
+      "sceneId": "s02",
+      "text": "Пятьдесят восемь процентов пользователей делают то, что раньше не могли.",
+      "out": "C:\\Users\\User\\OneDrive\\Desktop\\make-reels\\projects\\ai-business-30s\\audio\\voice\\s02.raw.wav"
+    },
+    {
+      "sceneId": "s03",
+      "text": "Но решает не сервис, а управление.",
+      "out": "C:\\Users\\User\\OneDrive\\Desktop\\make-reels\\projects\\ai-business-30s\\audio\\voice\\s03.raw.wav"
+    },
+    {
+      "sceneId": "s04",
+      "text": "Оно влияет на результат вдвое сильнее навыков.",
+      "out": "C:\\Users\\User\\OneDrive\\Desktop\\make-reels\\projects\\ai-business-30s\\audio\\voice\\s04.raw.wav"
+    },
+    {
+      "sceneId": "s05",
+      "text": "Единую линию руководства видят лишь двадцать шесть процентов.",
+      "out": "C:\\Users\\User\\OneDrive\\Desktop\\make-reels\\projects\\ai-business-30s\\audio\\voice\\s05.raw.wav"
+    },
+    {
+      "sceneId": "s06",
+      "text": "В России нейросети используют семьдесят один процент крупных компаний.",
+      "out": "C:\\Users\\User\\OneDrive\\Desktop\\make-reels\\projects\\ai-business-30s\\audio\\voice\\s06.raw.wav"
+    },
+    {
+      "sceneId": "s07",
+      "text": "Выиграет тот, кто перестроит процессы.",
+      "out": "C:\\Users\\User\\OneDrive\\Desktop\\make-reels\\projects\\ai-business-30s\\audio\\voice\\s07.raw.wav"
+    },
+    {
+      "sceneId": "s08",
+      "text": "Подпишись — больше разборов про [[ ˈiːʔˈiː ]] для бизнеса.",
+      "out": "C:\\Users\\User\\OneDrive\\Desktop\\make-reels\\projects\\ai-business-30s\\audio\\voice\\s08.raw.wav"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "target": {
+    "lufs": -14,
+    "truePeakMaxDb": -1
+  },
+  "full": {
+    "integratedLufs": -14.1,
+    "truePeakDb": -1.5,
+    "lra": 3.6
+  },
+  "noMusic": {
+    "integratedLufs": -14.1,
+    "truePeakDb": -1.5,
+    "lra": 3.6
+  },
+  "durationSec": 28.43163265306123,
+  "musicBedGainDb": -15,
+  "ducking": "sidechaincompress threshold 0.025 ratio 5 attack 25ms release 420ms"
+}

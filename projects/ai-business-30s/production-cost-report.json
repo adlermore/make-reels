@@ -1,0 +1,90 @@
+{
+  "projectId": "ai-business-30s",
+  "generatedAt": "2026-11-04T15:13:50.787Z",
+  "mode": "free-local",
+  "note": "All generation runs locally (Remotion, Piper/SAPI, procedural audio, FFmpeg). No paid API calls are made by this system.",
+  "totals": {
+    "estimateUsd": 0,
+    "actualUsd": 0,
+    "operations": 7
+  },
+  "entries": [
+    {
+      "provider": "piper",
+      "model": "ru_RU-dmitri-medium",
+      "operation": "tts",
+      "units": 439,
+      "unit": "characters",
+      "estimate_usd": 0,
+      "actual_usd": 0,
+      "asset_id": "ai-business-30s:voiceover",
+      "created_at": "2026-11-04T14:47:10.179Z"
+    },
+    {
+      "provider": "piper",
+      "model": "ru_RU-dmitri-medium",
+      "operation": "tts",
+      "units": 439,
+      "unit": "characters",
+      "estimate_usd": 0,
+      "actual_usd": 0,
+      "asset_id": "ai-business-30s:voiceover",
+      "created_at": "2026-11-04T14:48:24.624Z"
+    },
+    {
+      "provider": "piper",
+      "model": "ru_RU-dmitri-medium",
+      "operation": "tts",
+      "units": 441,
+      "unit": "characters",
+      "estimate_usd": 0,
+      "actual_usd": 0,
+      "asset_id": "ai-business-30s:voiceover",
+      "created_at": "2026-11-04T14:53:11.931Z"
+    },
+    {
+      "provider": "piper",
+      "model": "ru_RU-dmitri-medium",
+      "operation": "tts",
+      "units": 459,
+      "unit": "characters",
+      "estimate_usd": 0,
+      "actual_usd": 0,
+      "asset_id": "ai-business-30s:voiceover",
+      "created_at": "2026-11-04T14:54:35.039Z"
+    },
+    {
+      "provider": "piper",
+      "model": "ru_RU-dmitri-medium",
+      "operation": "tts",
+      "units": 460,
+      "unit": "characters",
+      "estimate_usd": 0,
+      "actual_usd": 0,
+      "asset_id": "ai-business-30s:voiceover",
+      "created_at": "2026-11-04T14:55:31.250Z"
+    },
+    {
+      "provider": "piper",
+      "model": "ru_RU-dmitri-medium",
+      "operation": "tts",
+      "units": 460,
+      "unit": "characters",
+      "estimate_usd": 0,
+      "actual_usd": 0,
+      "asset_id": "ai-business-30s:voiceover",
+      "created_at": "2026-11-04T15:01:16.578Z"
+    },
+    {
+      "provider": "piper",
+      "model": "ru_RU-dmitri-medium",
+      "operation": "tts",
+      "units": 460,
+      "unit": "characters",
+      "estimate_usd": 0,
+      "actual_usd": 0,
+      "asset_id": "ai-business-30s:voiceover",
+      "created_at": "2026-11-04T15:06:20.928Z"
+    }
+  ]
+}

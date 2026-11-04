@@ -1,0 +1,22 @@
+node_modules/
+.env
+.env.*
+!.env.example
+output/
+# heavy per-project media (sources are kept on disk, not in git)
+projects/*/assets/**/*.mp4
+projects/*/assets/**/*.png
+projects/*/assets/**/*.jpg
+projects/*/assets/**/*.webp
+projects/*/audio/**/*.wav
+projects/*/audio/**/*.mp3
+projects/*/renders/
+projects/*/reports/frames/
+.remotion/
+*.log
+
+.venv/
+tools/piper-voices/
+data/
+projects/*/reports/storyboard-frames/
+projects/*/reports/illustrations/

@@ -1,0 +1,12 @@
+{
+  "source": "procedural",
+  "preset": "cinematic-pulse",
+  "bpm": 100,
+  "key": "A minor",
+  "seed": 1100731143,
+  "durationSec": 28.93163265306123,
+  "bars": 14,
+  "license": "Original procedural composition generated locally by make-reels (pipeline/audio/music.ts). No third-party samples. Free for commercial use.",
+  "generator": "make-reels procedural synth @ 48000 Hz",
+  "renderMs": 665
+}

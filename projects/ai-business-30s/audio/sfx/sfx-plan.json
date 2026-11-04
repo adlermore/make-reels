@@ -1,0 +1,63 @@
+{
+  "projectId": "ai-business-30s",
+  "totalSec": 28.43163265306123,
+  "ambient": "audio/sfx/ambient.wav",
+  "cues": [
+    {
+      "sceneId": "s01",
+      "kind": "impact",
+      "atSec": 0.02,
+      "gainDb": -9,
+      "reason": "hook impact",
+      "file": "audio/sfx/impact.wav"
+    },
+    {
+      "sceneId": "s02",
+      "kind": "shimmer",
+      "atSec": 5.867052154195011,
+      "gainDb": -22,
+      "reason": "stat lands (ducked: on speech)",
+      "file": "audio/sfx/shimmer.wav"
+    },
+    {
+      "sceneId": "s03",
+      "kind": "whoosh",
+      "atSec": 8.195804988662132,
+      "gainDb": -14,
+      "reason": "transition wipe",
+      "file": "audio/sfx/whoosh.wav"
+    },
+    {
+      "sceneId": "s04",
+      "kind": "impact",
+      "atSec": 11.023650793650795,
+      "gainDb": -6,
+      "reason": "storyboard cue",
+      "file": "audio/sfx/impact.wav"
+    },
+    {
+      "sceneId": "s06",
+      "kind": "whoosh",
+      "atSec": 17.236349206349207,
+      "gainDb": -14,
+      "reason": "transition slide",
+      "file": "audio/sfx/whoosh.wav"
+    },
+    {
+      "sceneId": "s07",
+      "kind": "shimmer",
+      "atSec": 22.173492063492066,
+      "gainDb": -18,
+      "reason": "storyboard cue (ducked: on speech)",
+      "file": "audio/sfx/shimmer.wav"
+    },
+    {
+      "sceneId": "s08",
+      "kind": "pop",
+      "atSec": 24.730657596371884,
+      "gainDb": -16,
+      "reason": "CTA button (ducked: on speech)",
+      "file": "audio/sfx/pop.wav"
+    }
+  ]
+}
